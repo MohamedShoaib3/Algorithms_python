@@ -7,5 +7,5 @@ def selectionSort(arr):
             if arr[j] < smallest:
                 smallest = arr[j]
                 smallest_index = j
-        new_arr.append(arr.pop(smallest_index))  # استخدام smallest_index هنا
+        new_arr.append(arr.pop(smallest_index))  
     return new_arr
